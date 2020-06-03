@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+
+}
+
+.info{
+  position: relative;
+  font-family:'Baskervville', serif;
+  top:1000px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  mix-blend-mode: difference;
+  z-index: 300;
+}
+
+.text{
+  position: absolute;
+  font-family: 'Baskervville', serif;
+  top:13%;
+  text-align: center;
+  font-size: 70px;
+  color: white;
+}
+
+.logo img{
+  position: absolute;
+  top:10px;
+  left: 45%;
+  width: 10%;
+  z-index: 100;
+  background-color: inherit;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  font-style: italic;
+}
+
+a:active {
+  color: white;
+}
+
+.video {
+  position: absolute;
+  margin-top: -50px;
+
+}
